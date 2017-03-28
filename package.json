@@ -1,0 +1,25 @@
+{
+  "name": "hoy",
+  "version": "1.0.0",
+  "description": "Cached breakdown of today's text components",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doesdev/hoy.git"
+  },
+  "keywords": [
+    "today"
+  ],
+  "author": "Andrew Carpenter (https://github.com/doesdev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doesdev/hoy/issues"
+  },
+  "homepage": "https://github.com/doesdev/hoy#readme",
+  "devDependencies": {
+    "ava": "^0.18.2"
+  }
+}
