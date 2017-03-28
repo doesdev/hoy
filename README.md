@@ -13,7 +13,7 @@ $ npm install --save hoy
 ```js
 const hoy = require('hoy')
 console.log(hoy())
-// {full: "20170328", year: 2017, month: "03", day: "28"}
+// {full: "20170328", year: "2017", month: "03", day: "28"}
 ```
 
 ## License

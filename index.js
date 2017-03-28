@@ -10,7 +10,7 @@ module.exports = hoy
 function hoy () {
   if (today && (Date.now() < tomorrow.valueOf())) return today
   let d = new Date()
-  let year = d.getFullYear()
+  let year = `${d.getFullYear()}`
   let month = `0${(d.getMonth() + 1)}`.slice(-2)
   let day = `0${d.getDate()}`.slice(-2)
   today = {full: `${year}${month}${day}`, year, month, day}
