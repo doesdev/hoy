@@ -1,4 +1,4 @@
-# hoy [![NPM version](https://badge.fury.io/js/hoy.svg)](https://npmjs.org/package/hoy)   [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+# hoy [![NPM version](https://badge.fury.io/js/hoy.svg)](https://npmjs.org/package/hoy)   [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)   [![Dependency Status](https://dependencyci.com/github/doesdev/hoy/badge)](https://dependencyci.com/github/doesdev/hoy)
 
 > Cached breakdown of today's text components
 
