@@ -1,10 +1,11 @@
 {
   "name": "hoy",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Cached breakdown of today's text components",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "ava"
+    "test": "mvt --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/doesdev/hoy#readme",
   "devDependencies": {
-    "ava": "^0.18.2"
-  }
+    "mvt": "^5.0.0-beta.1"
+  },
+  "packageManager": "yarn@3.3.1"
 }

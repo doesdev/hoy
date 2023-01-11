@@ -1,7 +1,5 @@
-'use strict'
-
-import test from 'ava'
-import hoy from './index'
+import test from 'mvt'
+import hoy from './index.js'
 
 test('it works', (assert) => {
   assert.truthy(hoy().fresh)
