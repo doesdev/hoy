@@ -1,11 +1,24 @@
 {
   "name": "hoy",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Cached breakdown of today's text components",
-  "main": "index.js",
+  "main": "compiled.cjs",
   "type": "module",
+  "files": [
+    "index.js",
+    "compiled.cjs"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./compiled.cjs"
+    },
+    "./cjs": "./compiled.cjs"
+  },
   "scripts": {
-    "test": "mvt --verbose"
+    "test": "rollup -c && mvt --verbose",
+    "build": "rollup -c",
+    "precommit": "yarn run test && git add . -A"
   },
   "repository": {
     "type": "git",
@@ -21,7 +34,10 @@
   },
   "homepage": "https://github.com/doesdev/hoy#readme",
   "devDependencies": {
-    "mvt": "^5.0.0-beta.1"
+    "husky": "^8.0.3",
+    "mvt": "^5.0.0-beta.1",
+    "rollup": "^4.6.1",
+    "standard": "^17.1.0"
   },
   "packageManager": "yarn@3.3.1"
 }
