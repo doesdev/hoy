@@ -34,10 +34,10 @@
   },
   "homepage": "https://github.com/doesdev/hoy#readme",
   "devDependencies": {
-    "husky": "^8.0.3",
-    "mvt": "^5.0.0-beta.1",
-    "rollup": "^4.6.1",
-    "standard": "^17.1.0"
+    "husky": "^9.1.7",
+    "mvt": "^5.0.0",
+    "rollup": "^4.53.3",
+    "standard": "^17.1.2"
   },
   "packageManager": "yarn@3.3.1"
 }
